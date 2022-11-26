@@ -1,0 +1,45 @@
+.header {
+  background-color: var(--azul-bb);
+  padding: 0.8rem;
+}
+
+.header-container {
+  max-width: 900px;
+  margin: 0 auto;
+  align-items: center;
+  padding: 1.2rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-container h2 {
+  font-size: 2rem;
+}
+
+.header-menu {
+  display: flex;
+  gap: 2rem;
+  position: relative;
+}
+
+.header-menu a {
+  color: var(--preto);
+  font-weight: 500;
+  font-size: 1.125rem;
+  position: relative;
+}
+
+.header-menu a:after {
+  content: "";
+  display: block;
+  height: 0.15rem;
+  width: 0;
+  background: var(--preto);
+  margin-top: 4px;
+  transition: 0.275s;
+  position: absolute;
+}
+
+.header-menu a:hover::after {
+  width: 100%;
+}

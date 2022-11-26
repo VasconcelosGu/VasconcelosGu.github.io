@@ -1,0 +1,27 @@
+.sobre {
+  background-color: white;
+}
+
+.sobre-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 4rem 0;
+  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 5rem;
+}
+
+.sobre-container img {
+  border-radius: 0.5rem;
+}
+
+.sobre-conteudo .subtitulo {
+  font-size: 4rem;
+  line-height: 1.125;
+}
+
+.sobre-conteudo p {
+  font-size: 1.5rem;
+  margin-top: 2rem;
+}
