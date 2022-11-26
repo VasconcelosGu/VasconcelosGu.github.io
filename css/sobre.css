@@ -1,5 +1,6 @@
 .sobre {
-  background-color: white;
+  background: url(/img/bg.jpg) no-repeat center;
+  background-size: cover;
 }
 
 .sobre-container {
@@ -9,19 +10,27 @@
   align-items: center;
   display: grid;
   grid-template-columns: 1fr 2fr;
-  gap: 5rem;
+  gap: 6.5rem;
 }
 
 .sobre-container img {
+  border-radius: 0.5rem;
+  backdrop-filter: blur(8px);
+}
+
+.sobre-conteudo {
+  backdrop-filter: blur(10px);
+  padding: 0.8rem;
   border-radius: 0.5rem;
 }
 
 .sobre-conteudo .subtitulo {
   font-size: 4rem;
   line-height: 1.125;
+  padding: 0;
 }
 
 .sobre-conteudo p {
   font-size: 1.5rem;
-  margin-top: 2rem;
+  margin-top: 3rem;
 }
